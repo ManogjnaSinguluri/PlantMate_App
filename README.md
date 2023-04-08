@@ -17,9 +17,16 @@ The app is in development stage and features that are going to be added are:
 
 3. Plant health status checker
 
-##Screenshots
 
-![my_image](https://user-images.githubusercontent.com/114799185/230708656-c0d3830b-ebae-4434-998e-37bace5c1b32.jpeg)
+## Screenshots
+
+![1](https://user-images.githubusercontent.com/114799185/230710894-d0e38e42-4a11-4a9a-aa32-9ff2c764c869.jpg)       ![2](https://user-images.githubusercontent.com/114799185/230711057-7f95af15-529e-4697-9b1b-2ca3cc93c575.jpg)       ![3](https://user-images.githubusercontent.com/114799185/230714581-44779c24-f4ea-4aae-bd63-0e5f3c49d80f.jpg)       ![6](https://user-images.githubusercontent.com/114799185/230714696-5be0746c-fc3a-4b66-a2fe-387fdb7fcfa4.jpg)
+
+![4](https://user-images.githubusercontent.com/114799185/230711257-3629b8f3-f1fc-4374-aa56-275ad3be50e7.jpg) ![5](https://user-images.githubusercontent.com/114799185/230711271-62610d91-ab52-4a14-a6dd-feab866749fb.jpg)![7](https://user-images.githubusercontent.com/114799185/230714668-8f2a4947-ac2a-4cb1-8b54-f0906a0ec429.jpg)
+
+
+
+
 
 ## Credits
 
