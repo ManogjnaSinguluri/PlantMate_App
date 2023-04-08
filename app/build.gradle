@@ -1,0 +1,73 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.proj1'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.proj1"
+        minSdk 30
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    sourceSets {
+        main {
+            java {
+                srcDirs 'src\\main\\java', 'src\\main\\java\\libs'
+            }
+            assets {
+                srcDirs 'src\\main\\assets', 'src\\main\\assets\\assets'
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.fragment:fragment:1.5.5'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment:2.5.3'
+    implementation 'androidx.navigation:navigation-ui:2.5.3'
+    implementation 'org.apache.poi:poi:5.2.3'
+    implementation 'com.facebook.stetho:stetho:1.5.0'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'com.google.android.material:material:1.3.0-alpha02'
+//    implementation 'org.apache.poi:poi-ooxml:3.17'
+//    implementation files('libs/poi-3.7.jar')
+    implementation files('src/main/java/libs/json-20210307.jar')
+//    implementation files('src/main/java/libs/commons-io-2.11.0.jar')
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    //implementation 'mysql:mysql-connector-java:8.0.26'
+//     implementation 'mysql:mysql-connector-java:8.0.28'
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+    implementation 'mysql:mysql-connector-java:5.1.49'
+    implementation 'androidx.fragment:fragment:1.3.6'
+//    implementation 'androidx.fragment:fragment-ktx:1.3.6'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.1'
+//    implementation files('src/main/java/libs/mysql-connector-java-5.1.14.jar')
+   // implementation files('src/main/java/libs/poi-ooxml-lite-5.2.3.jar')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
