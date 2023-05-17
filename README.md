@@ -24,8 +24,8 @@ The app is in development stage and features that are going to be added are:
 
 ![4](https://user-images.githubusercontent.com/114799185/230711257-3629b8f3-f1fc-4374-aa56-275ad3be50e7.jpg) ![5](https://user-images.githubusercontent.com/114799185/230711271-62610d91-ab52-4a14-a6dd-feab866749fb.jpg)![7](https://user-images.githubusercontent.com/114799185/230714668-8f2a4947-ac2a-4cb1-8b54-f0906a0ec429.jpg)
 
+![8](https://github.com/ManogjnaSinguluri/PlantMate_App/assets/114799185/d2e39273-3262-4cb8-8dc1-7e227f4d3342) ![9](https://github.com/ManogjnaSinguluri/PlantMate_App/assets/114799185/c82ab3cd-7ef9-4709-a9e7-720c3f0e6390) ![10](https://github.com/ManogjnaSinguluri/PlantMate_App/assets/114799185/58f55da5-cd60-4746-9b07-82a4f30c015a) ![11](https://github.com/ManogjnaSinguluri/PlantMate_App/assets/114799185/e4851417-d14f-45ab-a3d5-17aec4f79066)
 
-![WhatsApp Image 2023-05-17 at 12 35 39](https://github.com/ManogjnaSinguluri/PlantMate_App/assets/114799185/2f000539-5a19-4793-9aa8-ef0894d1da6f) ![WhatsApp Image 2023-05-17 at 12 35 39 (1)](https://github.com/ManogjnaSinguluri/PlantMate_App/assets/114799185/bb8471da-6361-4760-b520-a3e6058e5dda) ![WhatsApp Image 2023-05-17 at 12 35 39 (2)](https://github.com/ManogjnaSinguluri/PlantMate_App/assets/114799185/c3192926-2fe0-41ba-8c2e-c555275d9b42) ![WhatsApp Image 2023-05-17 at 12 35 40](https://github.com/ManogjnaSinguluri/PlantMate_App/assets/114799185/8f1df3d4-1f5b-42da-920d-01340fa12d95)
 
 
 ## Credits
