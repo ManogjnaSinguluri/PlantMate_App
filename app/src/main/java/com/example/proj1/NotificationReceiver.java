@@ -15,7 +15,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
 public class NotificationReceiver extends BroadcastReceiver {
-    private static final String TAG = "NotificationReceiver";
+   // private static final String TAG = "NotificationReceiver";
     private static final int NOTIFICATION_ID = 1;
     private static final int CHANNEL_ID =1;
 
@@ -67,7 +67,7 @@ public class NotificationReceiver extends BroadcastReceiver {
                     .setContentTitle("Plants need to be watered")
                     .setContentText(message.toString())
                     .setPriority(NotificationCompat.PRIORITY_DEFAULT);
-            if (ActivityCompat.checkSelfPermission(context, android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+           if (ActivityCompat.checkSelfPermission(context, android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
                 // TODO: Consider calling
                 //    ActivityCompat#requestPermissions
                 // here to request the missing permissions, and then overriding

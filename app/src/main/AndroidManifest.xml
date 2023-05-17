@@ -47,6 +47,10 @@
             android:label="@string/app_name">
         </activity>
         <activity
+            android:name=".StatusActivity"
+            android:label="Status Activity" />
+
+        <activity
             android:name=".Signupclass"
             android:label="@string/app_name" />
         <activity

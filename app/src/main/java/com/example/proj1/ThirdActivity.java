@@ -7,6 +7,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -50,6 +52,11 @@ public class ThirdActivity extends AppCompatActivity {
                         fertile="not found in dataset!";
                     }
                     Shade=cursor.getString(10);
+                    if(Shade=="Low"){
+                        Shade="High";
+                    } else if (Shade=="High") {
+                        Shade="Low";
+                    }
                     if(Shade==null){
                         Shade="not found in dataset!";
                     }
@@ -97,27 +104,34 @@ public class ThirdActivity extends AppCompatActivity {
         // Set the Bitmap as the image for the ImageView
         textview.setText(imagename);
         TextView textview1=findViewById(R.id.tw1);
-
+        soil=soil.substring(0,(soil.length()));
         // Set the Bitmap as the image for the ImageView
-        textview1.setText("Soil type: "+soil);
+        textview1.setText(soil);
 
         TextView textview2=findViewById(R.id.tw2);
 
         // Set the Bitmap as the image for the ImageView
-        textview2.setText("Moisture requirement:"+moisture);
+        textview2.setText(moisture);
 
         TextView textview3=findViewById(R.id.tw3);
 
         // Set the Bitmap as the image for the ImageView
-        textview3.setText("Shade Tolerance: "+Shade);
+        textview3.setText(Shade);
 
         TextView textview4=findViewById(R.id.tw4);
         // Set the Bitmap as the image for the ImageView
 
-        textview4.setText("Maximum Temperature: "+temp);
-        TextView textview5=findViewById(R.id.tw5);
-        textview5.setText("Fertility requirement: "+fertile);
+        textview4.setText(temp);
+       /* TextView textview5=findViewById(R.id.tw5);
+        textview5.setText("Fertility requirement: "+fertile);*/
 
-
+        Button button=findViewById(R.id.button24);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ThirdActivity.this, StatusActivity.class));
+                finish();
+            }
+        });
     }
 }
