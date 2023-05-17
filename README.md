@@ -32,5 +32,5 @@ The app is in development stage and features that are going to be added are:
 
 This project uses the following third-party resources:
 
- *  Plant.id for plant identification API.
+ *  Plant.id for plant identification API and health status API
  *  USDA for providing the dataset used in this project.
