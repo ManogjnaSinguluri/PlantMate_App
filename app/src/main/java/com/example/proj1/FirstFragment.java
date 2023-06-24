@@ -54,7 +54,14 @@ public class FirstFragment extends AppCompatActivity {
         setContentView(R.layout.fragment_first);
         // Create the PendingIntent that will be used to send the notification intent
         Intent intent = new Intent(this, NotificationReceiver.class);
-        PendingIntent pendingIntent = PendingIntent.getBroadcast(this, NOTIFICATION_REQUEST_CODE, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        PendingIntent pendingIntent;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            // Specify FLAG_MUTABLE for Android S and above
+            pendingIntent = PendingIntent.getBroadcast(this, NOTIFICATION_REQUEST_CODE, intent, PendingIntent.FLAG_MUTABLE);
+        } else {
+            // For lower Android versions, use FLAG_UPDATE_CURRENT
+            pendingIntent = PendingIntent.getBroadcast(this, NOTIFICATION_REQUEST_CODE, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        }
 
         // Schedule the notification to be sent at 8 o'clock every day
         AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
